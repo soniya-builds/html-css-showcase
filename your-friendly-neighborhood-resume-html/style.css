@@ -4,17 +4,34 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 body{
-    background: linear-gradient(
-        135deg,
-        #2b0f14,
-        #4a101c,
-        #681826
-    );
+
+    background:
+        linear-gradient(
+            180deg,
+            #000000 0%,
+            #090909 35%,
+            #180000 70%,
+            #2a0000 100%
+        );
 
     color: #f5f5f5;
+
     min-height: 100vh;
+
     padding: 40px;
+
+    overflow-x: hidden;
+
     line-height: 1.7;
+}
+.container{
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    animation: fadeIn 0.8s ease;
 }
