@@ -66,3 +66,26 @@ body{
 
     animation: floatSpider 3s ease-in-out infinite;
 }
+.hero-text{
+    flex: 1;
+}
+
+.hero-text h1{
+
+    font-size: 5rem;
+
+    font-weight: bold;
+
+    line-height: 1;
+
+    color: #d9d9d9;
+
+    text-transform: uppercase;
+
+    letter-spacing: 3px;
+
+    text-shadow:
+        0 0 12px rgba(255,255,255,0.15);
+
+    transition: 0.3s ease;
+}
