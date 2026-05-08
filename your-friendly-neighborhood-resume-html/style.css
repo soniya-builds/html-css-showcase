@@ -35,3 +35,19 @@ body{
 
     animation: fadeIn 0.8s ease;
 }
+.hero{
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 50px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 60px;
+}
