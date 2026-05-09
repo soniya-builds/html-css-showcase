@@ -267,3 +267,76 @@ nav a:hover::after{
 }
 
 
+.glass-card:hover::before{
+    opacity: 1;
+}
+h2{
+
+    color: #ffffff;
+
+    margin-bottom: 18px;
+
+    font-size: 2rem;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    position: relative;
+
+    display: inline-block;
+}
+h2::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -8px;
+
+    width: 60%;
+
+    height: 3px;
+
+    background: #c40000;
+}
+h2:hover::before{
+
+    content: "🕷";
+
+    position: absolute;
+
+    left: -35px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    animation: spiderPop 0.4s ease;
+}
+ul{
+    margin-left: 20px;
+}
+
+li{
+
+    margin: 12px 0;
+
+    color: #dddddd;
+
+    transition: 0.3s ease;
+}
+
+li:hover{
+
+    color: #ffffff;
+
+    transform: translateX(5px);
+}
+
+li:hover::before{
+    content: "🕷 ";
+}
+
