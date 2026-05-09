@@ -97,3 +97,15 @@ body{
 
     font-size: 4rem;
 }
+.hero-text h1:hover{
+
+    animation: spideyWiggle 0.5s ease;
+}
+.hero-text p{
+
+    margin-top: 15px;
+
+    color: #c9c9c9;
+
+    max-width: 600px;
+}
