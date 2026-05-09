@@ -46,6 +46,4 @@ You can also use the VS Code Live Server extension for a better viewing experien
 
 Completed as my first frontend styling project.
 
-## Author
-
-Created as a creative frontend practice project using HTML and CSS.
+Date:09-May-2026
