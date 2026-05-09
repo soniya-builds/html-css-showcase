@@ -89,3 +89,11 @@ body{
 
     transition: 0.3s ease;
 }
+.hero-text h1 span{
+
+    display: block;
+
+    color: #c40000;
+
+    font-size: 4rem;
+}
