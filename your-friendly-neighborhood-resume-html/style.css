@@ -109,3 +109,59 @@ body{
 
     max-width: 600px;
 }
+nav{
+
+    margin-bottom: 40px;
+}
+
+nav ul{
+
+    display: flex;
+
+    gap: 40px;
+
+    list-style: none;
+}
+
+nav a{
+
+    color: #d9d9d9;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    letter-spacing: 1px;
+
+    position: relative;
+
+    transition: 0.3s ease;
+}
+
+nav a:hover{
+
+    color: #ff0000;
+}
+
+nav a::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -6px;
+
+    width: 0%;
+
+    height: 2px;
+
+    background: #ff0000;
+
+    transition: 0.3s ease;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
